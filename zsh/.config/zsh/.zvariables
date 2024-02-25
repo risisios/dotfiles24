@@ -1,0 +1,23 @@
+export CONFIG_STOW=${HOME}/config-stow
+
+# Work variables
+export THESIS_HOME=${HOME}/work/thesis
+
+# Cluster variables
+export museID=louchaoh@muse-login.meso.umontpellier.fr
+
+# Exporting values for TexLive
+# export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH
+# export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info:$INFOPATH
+# export PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH
+
+# Creating variables for TGCC's Joliot-Curie cluster
+export IRENEID=louchah@irene-fr.ccc.cea.fr
+export CCCSCRATCHDIR=/ccc/scratch/cont003/gen11009/louchah
+export CCCWORKDIR=/ccc/work/cont003/gen11009/louchah
+
+# CINES's Adastra cluster
+export ADASTRA_ID='hlou@adastra.cines.fr'
+export ADASTRA_SCRATCHDIR='/lus/scratch/CT1/cin4406/hlou'
+export ADASTRA_WORKDIR='/lus/work/CT1/cin4406/hlou'
+export ADASTRA_STOREDIR='/lus/store/CT1/cin4406/hlou'

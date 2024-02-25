@@ -1,0 +1,20 @@
+alias ll='ls -al'
+alias -s md="google-chrome"
+alias tree='tree -C'
+
+# Tmux aliases
+alias tmdev='source ${XDG_CONFIG_HOME}/tmux/scripts/dev.sh'
+alias tmbench='source ${XDG_CONFIG_HOME}/tmux/scripts/bench.sh'
+alias tmedit='source ${XDG_CONFIG_HOME}/tmux/scripts/edit.sh'
+alias tmssh='source ${XDG_CONFIG_HOME}/tmux/scripts/ssh.sh'
+
+# TGCC's Joliot-Curie aliases
+alias rsync-irene="rsync -rv --chmod=Dg+s --chown=:gen11009 -e 'ssh -J puech'"
+
+# Manylinux
+alias manylinux="docker run -i -t -v `pwd`:/io quay.io/pypa/manylinux2014_x86_64:latest /bin/bash"
+alias convert_wheel="docker run -i -t -v `pwd`:/io quay.io/pypa/manylinux2014_x86_64:latest /usr/local/bin/auditwheel repair"
+
+# Adastra aliases
+alias rsync-puech="rsync -av -e 'ssh -J puech'"
+

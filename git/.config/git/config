@@ -1,0 +1,7 @@
+[user]
+	email = risisios@gmail.com
+	name = risisios
+[pull]
+	rebase = false
+[core]
+	editor = nvim

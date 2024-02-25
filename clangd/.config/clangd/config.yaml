@@ -1,0 +1,6 @@
+CompileFlags:
+  Add: [-Wall, -Wextra]
+  Compiler: gcc
+Diagnostics:
+  UnusedIncludes: Strict
+  MissingIncludes: Strict

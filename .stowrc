@@ -1,0 +1,3 @@
+--dir=${CONFIG_STOW} \
+--target=${HOME} \
+--dotfiles

@@ -1,0 +1,33 @@
+---
+# Starting from Google's standards
+BasedOnStyle: Google
+IndentWidth: 4
+---
+# Customizing the C/C++ formatting
+Language: Cpp
+AllowShortEnumsOnASingleLine: true
+AlignAfterOpenBracket: Align
+BreakBeforeBraces: Allman
+DerivePointerAlignment: false
+IncludeBlocks: Preserve
+IndentCaseLabels: true
+IndentCaseBlocks: true
+IndentGotoLabels: true
+IndentPPDirectives: BeforeHash
+InsertNewlineAtEOF: false
+MaxEmptyLinesToKeep: 2
+PointerAlignment: Right
+ReferenceAlignment: Right
+ReflowComments: true
+SeparateDefinitionBlocks: Always
+SortIncludes: CaseInsensitive
+SpaceAfterCStyleCast: true
+SpaceBeforeCaseColon: false
+SpaceBeforeParens: ControlStatements
+SpacesInLineCommentPrefix:
+  Minimum: 1
+  Maximum: 1
+UseTab: Never
+ColumnLimit: 140
+---
+
