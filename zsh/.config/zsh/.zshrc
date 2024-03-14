@@ -46,3 +46,6 @@ if [[ -f ${ZDOTDIR}/.zvariables ]]
 then
 	. ${ZDOTDIR}/.zvariables
 fi
+
+# Loading Keychain
+eval $(keychain --eval --quiet --noask id_ed25519 id_ed25519.pro)
