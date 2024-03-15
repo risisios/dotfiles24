@@ -21,3 +21,6 @@ export ADASTRA_ID='hlou@adastra.cines.fr'
 export ADASTRA_SCRATCHDIR='/lus/scratch/CT1/cin4406/hlou'
 export ADASTRA_WORKDIR='/lus/work/CT1/cin4406/hlou'
 export ADASTRA_STOREDIR='/lus/store/CT1/cin4406/hlou'
+
+# Adding OpenMP variables
+export OMP_NUM_THREADS=10
